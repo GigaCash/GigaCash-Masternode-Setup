@@ -8,7 +8,7 @@
 * 1.3 Click on `debug console` found in `tools`
 ![Imgur](https://i.gyazo.com/2b22c2a6f2f050f84357989ee67bb88a.png)
 * 1.4 Type `masternode genkey` and copy the generated key into a text file for future use, then close the console.<br />
-* 1.5 Go to `receiving wallets` found in `files` - create a new masternode wallet address and call it `mn1`. <br />
+* 1.5 Go to `receiving addresses` found in `file` - create a new masternode wallet address and call it `mn1`. <br />
 ![Imgur](https://i.gyazo.com/8a4ef87618bcb7c8e61f8cebb5c22dad.png)
 Copy the address by right-clicking and selecting "Copy Address"<br>
 * 1.6 Send EXACTLY 10,000 coins to `mn1` wallet by pasting the copied address.<br>
