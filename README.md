@@ -33,7 +33,6 @@ The server is now being created you may need to wait a few minutes.
 In your email you will receive the access details for your vps you will need the IP, USERNAME & PASSWORD
 
 ## 3. Configure your masternode
-Depending upon which operating system you are using follow the correct section:
 
 ### 3.1 Install PuTTY - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * Once you open the program you will see the following:<br>
