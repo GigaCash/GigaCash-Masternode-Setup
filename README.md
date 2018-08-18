@@ -55,7 +55,7 @@ Update your system to the latest version to make sure you are secure.
 > Now we will use the easy setup Masternode Script<br>
 
 * Type: `cd ~`  ENTER
-* Type: `wget https://raw.githubusercontent.com/GigaCash/GigaCash/master/setupmn.sh` ENTER
+* Type: `wget https://raw.githubusercontent.com/GigaCash/GigaCash-Masternode-Setup/master/setupmn.sh` ENTER
 * Type: `bash setupmn.sh` ENTER
 * You will now be asked to type or copy your masternode private key after making sure it is correct press ENTER.
 * Your masternode is now setup on your VPS now all you need to do is setup your desktop wallet
