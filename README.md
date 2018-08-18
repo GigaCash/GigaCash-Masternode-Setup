@@ -37,7 +37,7 @@ In your email you will receive the access details for your vps you will need the
 ### 3.1 Install PuTTY - [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 * Once you open the program you will see the following:<br>
 ![Imgur](https://i.imgur.com/X1k9vXi.png)<br>
-* Fill the Host name field with the IP address you previously recieved in the email and click "Open".<br>
+* Fill the Host name field with the IP address you previously received in the email and click "Open".<br>
 * You will now see a popup asking you if you trust this host, you will need to choose Yes.
 ![Imgur](https://i.imgur.com/Y2iEDj8.png)<br>
 * Now you will be asked to enter your username which was provided in the email usually this is "root".
@@ -49,7 +49,7 @@ Update your system to the latest version to make sure you are secure.
 * Type: `sudo apt-get update`  ENTER
 * Wait until this has finished
 * Type: `sudo apt-get upgrade` ENTER
-* Type "y" if the system ask for the confirmation of updating the system.
+* Type "y" if the system asks you, so you can update the system.
 
 > Now we will use the easy setup Masternode Script<br>
 
@@ -59,7 +59,7 @@ Update your system to the latest version to make sure you are secure.
 * You will now be asked to type or copy your masternode private key after making sure it is correct press ENTER.
 * Your masternode is now setup on your VPS now all you need to do is setup your desktop wallet
 
-## 4. Masternode config file in the wallet
+## 4. Masternode Configure Desktop wallet
 
 4.1 Go to `open masternode configuration file` in the wallet - found on the 'tools' menu if asked what program to use to open it choose notepad <br />
    Here you will see the format and an example( these three lines are comments so they have no effect ) <br />
