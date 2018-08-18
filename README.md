@@ -62,25 +62,25 @@ Update your system to the latest version to make sure you are secure.
 
 ## 4. Masternode config file in the wallet
 
-4.1 Go to `open masternode configuration file` in the wallet - found on the 'tools' menu <br />
+4.1 Go to `open masternode configuration file` in the wallet - found on the 'tools' menu if asked what program to use to open it choose notepad <br />
    Here you will see the format and an example( these three lines are comments so they have no effect ) <br />
 The format is like this:
 
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: MN01 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+# Example: mn1 127.0.0.2:5077 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 ```
 
-4.2. Add your own real working node details under it. <br />
+4.2. Add your own node details under it. <br />
 4.3. Put the masternode wallet name, i.e - `MN01` <br />
-4.4 Put the server IP address ( your vultr ip or other vps/vm ip) followed by the port :6250 <br />
+4.4 Put the server IP address followed by the port :5077 <br />
 4.5 Put the private key generated in step 1.4 <br />
 4.6 Put the transaction hash and output id from step 1.7 <br />
 Example below
 
 ```
-MN01 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
+mn1 128.893.2.0:5077 A3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8bC dgcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a667 0
 ```
 
 4.7 Once complete, save the file <br />
@@ -89,37 +89,22 @@ The file will look like this:
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:51474 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
-MN01 124.842.07.0:6250 119cCx5YeA519YkTzun4EptdexAo3RvQXaPdkP 838328ce57cc8b168d932d138001781b77b22470c05cf2235a3284093cb0019db 0
+# Example: mn1 127.0.0.2:5077 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn1 128.893.2.0:5077 A3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8bC dgcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a667 0
 ```
 4.8 Restart the wallet<br>
 4.9 Go to your wallet and go to the masternode page.<br>
 * Select the masternode and press: "Start alias".<br>
-![Imgur](https://i.imgur.com/jXDVZqO.png)<br>
+![Imgur](https://i.gyazo.com/9c4dc372ec9882122bffd6286b380bd6.png)<br>
 
 To verify that the masternode is running on the vps:
-* Type: `cd ~/nodium/src`  ENTER
-* Type: `./nodium-cli masternode status`  ENTER
+* Type: `cd ~`  ENTER
+* Type: `Gigacash-cli masternode status`  ENTER
 * If you get this output you are done:<br>
 ![Imgur](https://i.imgur.com/tWVgO2O.png)
 
 <br>
 
 >!!!!! Congratulations, you have setup your masternode and you should start earning rewards soon! !!!!!<br>
-
-# 6. Security
-
-## 6.1 Wallet
-
-Encrypt your wallet! This prevents other people ( who have access to your computer or get access to your wallet.dat file ) to get in your wallet. Don't lose that password. If you lose it the wallet is locked forever and nobobdy will be able to recover your funds.
-
-Backup your wallet! The beauty of digital files is that you can back them up and store them somewhere safe. After encrypting your wallet make sure you back it up and keep it somewhere safe ( on a usb for example).
-
-## 6.2 VPS
-
-For the more advanced user I advise making your VPS more secure from all kinds of attacks. We don't want other people stealing our masternode right?
-Please look at this guide http://patheyman.com/masternode-secure/ for more info.
-
-# 7. Support or Questions
 
 If you are needing any help or have a question you can join our Discord and we will help you.
