@@ -104,6 +104,6 @@ To verify that the masternode is running on the vps:
 
 <br>
 
->!!!!! Congratulations, you have setup your masternode and you should start earning rewards soon! !!!!!<br>
+>Congratulations, you have now setup your masternode<br>
 
 If you are needing any help or have a question you can join our Discord and we will help you.
