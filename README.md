@@ -1,6 +1,6 @@
 # GigaCash Masternode Setup Guide
 
-> Foolow the steps below to setup and install your GigaCash masternode<br><br>
+> Follow the steps below to setup and install your GigaCash masternode<br><br>
 
 ## 1. Wallet setup
 * 1.1 Download the [latest wallet](https://github.com/GigaCash/GigaCash/releases) for your operating system.<br>
