@@ -107,6 +107,6 @@ To verify that the masternode is running on the vps:
 >Congratulations, you have now setup your masternode<br>
 
 If you are needing any help or have a question you can join our Discord and we will help you.
-
-
-Based on Zoldur's MN scripts
+<br>
+<br>
+>Based on Zoldur's MN scripts
