@@ -1,17 +1,17 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='Gigacash.conf'
+CONFIG_FILE='gigacash.conf'
 CONFIGFOLDER='/root/.gigacashdir'
-COIN_DAEMON='Gigacashd'
-COIN_CLI='Gigacash-cli'
+COIN_DAEMON='gigacashd'
+COIN_CLI='gigacash-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/GigaCash/GigaCash'
 COIN_TGZ='https://raw.githubusercontent.com/GigaCash/GigaCash-Masternode-Setup/master/gigacash.tar.gz'
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='GigaCash'
-COIN_PORT=5077 #Updated Port
-RPC_PORT=5177
+COIN_NAME='gigacash'
+COIN_PORT=5078 #Updated Port
+RPC_PORT=5178
 
 NODEIP=$(curl -s4 icanhazip.com)
 
