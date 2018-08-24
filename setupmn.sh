@@ -1,10 +1,10 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='Gigacash.conf'
+CONFIG_FILE='gigacash.conf'
 CONFIGFOLDER='/root/.gigacashdir'
-COIN_DAEMON='Gigacashd'
-COIN_CLI='Gigacash-cli'
+COIN_DAEMON='gigacashd'
+COIN_CLI='gigacash-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_REPO='https://github.com/GigaCash/GigaCash'
 COIN_TGZ='https://raw.githubusercontent.com/GigaCash/GigaCash-Masternode-Setup/master/gigacash.tar.gz'
