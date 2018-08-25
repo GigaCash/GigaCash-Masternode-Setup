@@ -2,7 +2,7 @@
 
 TMP_FOLDER=$(mktemp -d)
 CONFIG_FILE='gigacash.conf'
-CONFIGFOLDER='/root/.gigacashdir'
+CONFIGFOLDER='/root/.gigacash'
 COIN_DAEMON='gigacashd'
 COIN_CLI='gigacash-cli'
 COIN_PATH='/usr/local/bin/'
