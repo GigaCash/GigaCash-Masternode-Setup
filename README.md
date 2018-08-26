@@ -94,7 +94,7 @@ mn1 128.893.2.0:5078 A3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8bC dgcd3c8
 4.8 Restart the wallet<br>
 4.9 Go to your wallet and go to the masternode page.<br>
 4.10 Go to tools > debug console<br>
-4.11 Type <startmasternode "alias" "0" "mn1"> where mn1 is the name of your masternode<br>
+4.11 Type `startmasternode "alias" "0" "mn1"` where mn1 is the name of your masternode<br>
 
 
 To verify that the masternode is running on the vps:
