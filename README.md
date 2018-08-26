@@ -68,18 +68,18 @@ The format is like this:
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:5077 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+# Example: mn1 127.0.0.2:5078 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
 ```
 
 4.2. Add your own node details under it. <br />
 4.3. Put the masternode wallet name, i.e - `MN01` <br />
-4.4 Put the server IP address followed by the port :5077 <br />
+4.4 Put the server IP address followed by the port :5078 <br />
 4.5 Put the private key generated in step 1.4 <br />
 4.6 Put the transaction hash and output id from step 1.7 <br />
 Example below
 
 ```
-mn1 128.893.2.0:5077 A3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8bC dgcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a667 0
+mn1 128.893.2.0:5078 A3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8bC dgcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a667 0
 ```
 
 4.7 Once complete, save the file <br />
@@ -88,13 +88,14 @@ The file will look like this:
 ```
 # Masternode config file
 # Format: alias IP:port masternodeprivkey collateral_output_txid collateral_output_index
-# Example: mn1 127.0.0.2:5077 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
-mn1 128.893.2.0:5077 A3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8bC dgcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a667 0
+# Example: mn1 127.0.0.2:5078 93HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8Xg 2bcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a67c 0
+mn1 128.893.2.0:5078 A3HaYBVUCYjEMeeH1Y4sBGLALQZE1Yc1K64xiqgX37tGBDQL8bC dgcd3c84c84f87eaa86e4e56834c92927a07f9e18718810b92e0d0324456a667 0
 ```
 4.8 Restart the wallet<br>
 4.9 Go to your wallet and go to the masternode page.<br>
-* Select the masternode and press: "Start alias".<br>
-![Imgur](https://i.gyazo.com/9c4dc372ec9882122bffd6286b380bd6.png)<br>
+4.10 Go to tools > debug console<br>
+4.11 Type <startmasternode "alias" "0" "mn1"> where mn1 is the name of your masternode<br>
+
 
 To verify that the masternode is running on the vps:
 * Type: `cd ~`  ENTER
